@@ -14,6 +14,7 @@ module top_module(
     output [5:0] out_not
 );
     // we want 3 output from the or gate in bitwise operation
+    // It will also work in the case of logical operation
     assign out_or_bitwise[0] = a[0] | b[0];
     assign out_or_bitwise[1] = a[1] | b[1];
     assign out_or_bitwise[2] = a[2] | b[2];
