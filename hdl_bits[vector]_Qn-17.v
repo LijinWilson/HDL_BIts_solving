@@ -13,6 +13,6 @@ module top_module(
     
 	// using concatenation
 	// while we using the assign out =  {in[7],in[6]...} we are assigning the in[0]=out[0]
-	// we dont want to reverse so; int[0] = out[7]
+	// we want to reverse so; int[0] = out[7]
     assign out = {in[0],in[1],in[2],in[3],in[4],in[5],in[6],in[7]};
 endmodule
