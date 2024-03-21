@@ -11,7 +11,7 @@
 // Try to use only assign statements, to see whether you can translate a problem description into a collection of logic gates.
 
 // Solution
-module top_module (
+module top_module (d
     input too_cold,
     input too_hot,
     input mode,
